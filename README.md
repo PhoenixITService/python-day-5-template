@@ -1,65 +1,44 @@
-# Day 4 Assignment – GitHub Submission
+# Day 10 Assignment – GitHub Submission
 
-Welcome! Please follow the instructions carefully to complete and submit your Day 4 assignment.
+Welcome! Please follow the instructions carefully to complete and submit your Day 10 assignment.
 
 ---
 
 ## ✅ Tasks:
 
-You need to complete **two coding tasks**:
+You need to complete **the coding task**:
 
 ---
 
-### Task 1: Tuple Length Sorting
+### Task: Find elements that appear in exactly 2 out of the 4 sets
 
-Given a list of tuples, each starting with a label followed by numbers, return a list of labels sorted by the length of each tuple.
+Given 4 sets, Find elements that appear in exactly 2 out of these 4 sets. Try to write the logic in a single line.
 
 #### Input:
 ```python
-data = [
-    ('A', 1, 2),
-    ('B', 3),
-    ('C', 4, 5, 6),
-    ('D',),
-    ('E', 7, 8)
-]
-````
-(same should be used in program)
-
-#### Expected Output:
-
-```python
-['D', 'B', 'A', 'E', 'C']
+A = {1, 2, 3, 4, 5}
+B = {3, 4, 5, 6, 7}  
+C = {5, 6, 7, 8, 9}
+D = {1, 3, 7, 9, 10}
 ```
-
----
-
-### Task 2: Reverse Lookup
-
-Given a dictionary of student names and marks, prompt the user to enter a score and print the first student with that score. If none is found, print `"Not found"`.
-
-#### Given Dictionary:
-
-```python
-scores = {
-    "Anita": 92,
-    "Ravi": 85,
-    "Kiran": 76,
-    "Zoya": 88
-}
-```
-
-#### Sample Input:
-
-```
-Enter score: 88
-```
+same should be used in program
 
 #### Expected Output:
 
 ```
-Zoya
+Elements in exactly 2 sets: {1, 4, 6, 9}
 ```
+
+#### Explanation
+Elements that appear in exactly 2 sets:
+
+1 - A & D
+
+4 - A & B
+
+6 - B & C
+
+9 - C & D
 
 ---
 
@@ -67,12 +46,11 @@ Zoya
 
 Use your **first name** in the filename.
 
-You must upload the following **two files**
+You must upload the following **file**
 
-For a student named **anand**, filenames should be:
+For a student named **anand**, filename should be:
 
-* `anand_tuple_sort.py`
-* `anand_reverse_lookup.py`
+* `anand_set_elements.py`
 
 ---
 
